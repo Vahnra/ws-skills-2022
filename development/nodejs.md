@@ -6,7 +6,12 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ❌ / ✔️
+- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ✔️
+Après avoir initialisé et installé l'application et bien sur installé nodemon, on modifie la commande npm start dans le fichier package.json pour la démarrer avec nodemon.
+```
+"start": "nodemon src/index.js"
+```
+
 - La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ❌ / ✔️
 - Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌ / ✔️
 - *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ / ✔️
@@ -21,11 +26,12 @@
 const convertMDFileToHTML = (pathToMDfile) => /* ... path to HTML file */
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/Vahnra/wns-2022-node-typescript-boilerplate)
 
 Description :
+Back-end d'une application fait pendant la deuxieme semaine de cours durant la formation en alternance de CDA.
 
 ### Utilisation en production si applicable❌ / ✔️
 
@@ -39,10 +45,10 @@ Description :
 
 ## 🌐 J'utilise des ressources
 
-### Titre
+### Google en général
 
-- lien
-- description
+- https://www.google.com/
+- Pour tous problemes rencontré je me sers de google pour essayer d'y voir plus clair et de trouver une solution.
 
 ## 🚧 Je franchis les obstacles
 
